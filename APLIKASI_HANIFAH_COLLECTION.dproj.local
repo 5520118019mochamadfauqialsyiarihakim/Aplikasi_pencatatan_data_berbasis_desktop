@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/07/13 20:16:44.000.114,=C:\Users\mypc\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/07/13 20:30:51.000.829,=C:\Users\mypc\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/07/13 20:51:17.000.305,=C:\Users\mypc\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2021/07/13 21:01:56.000.823,=C:\Users\mypc\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2021/07/13 21:56:41.000.887,C:\Users\mypc\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\mypc\Documents\Embarcadero\Studio\Projects\APLIKASI_HANIFAH_COLLECTION.dproj</Transaction>
+    <Transaction>2021/07/14 05:24:06.000.411,=C:\Users\mypc\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2021/07/14 05:52:54.000.809,=C:\Users\mypc\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2021/07/14 06:20:22.000.082,=C:\Users\mypc\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2021/07/14 10:38:32.000.818,=C:\Users\mypc\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>2021/07/14 10:39:03.000.281,=C:\Users\mypc\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
+    <Transaction>2021/07/14 10:41:25.000.407,=C:\Users\mypc\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>2021/08/01 09:04:17.000.498,C:\Users\mypc\Documents\Embarcadero\Studio\Projects\Unit8.pas=C:\Users\mypc\Documents\Embarcadero\Studio\Projects\udm.pas</Transaction>
+    <Transaction>2021/08/01 09:04:17.000.498,C:\Users\mypc\Documents\Embarcadero\Studio\Projects\Unit8.dfm=C:\Users\mypc\Documents\Embarcadero\Studio\Projects\udm.dfm</Transaction>
+    <Transaction>2021/08/01 10:35:15.000.014,=C:\Users\mypc\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>2021/08/05 07:05:43.000.160,=C:\Users\mypc\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
+    <Transaction>2021/08/05 07:38:37.000.559,=C:\Users\mypc\Documents\Embarcadero\Studio\Projects\Unit10.pas</Transaction>
+    <Transaction>2021/08/19 15:49:13.000.149,=C:\Users\mypc\Documents\Embarcadero\Studio\Projects\Program Hanifah Collection\Unit11.pas</Transaction>
+    <Transaction>2021/09/20 22:03:32.000.208,=C:\Users\mypc\Documents\Embarcadero\Studio\Projects\Program Hanifah Collection\Unit12.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Unit10.pas"/>
+    <File Path="Unit10.dfm"/>
+    <File Path="udm.pas"/>
+    <File Path="udm.dfm"/>
+    <File Path="Unit1.pas"/>
+    <File Path="Unit1.dfm"/>
+    <File Path="Unit2.pas"/>
+    <File Path="Unit2.dfm"/>
+    <File Path="Unit3.pas"/>
+    <File Path="Unit3.dfm"/>
+    <File Path="Unit4.pas"/>
+    <File Path="Unit4.dfm"/>
+    <File Path="Unit5.pas"/>
+    <File Path="Unit5.dfm"/>
+    <File Path="Unit6.pas"/>
+    <File Path="Unit6.dfm"/>
+    <File Path="Unit7.pas"/>
+    <File Path="Unit7.dfm"/>
+    <File Path="Unit8.pas"/>
+    <File Path="Unit8.dfm"/>
+    <File Path="Unit9.pas"/>
+    <File Path="Unit9.dfm"/>
+    <File Path="Unit11.pas"/>
+    <File Path="Unit11.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

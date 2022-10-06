@@ -1,0 +1,159 @@
+object dm: Tdm
+  OldCreateOrder = False
+  OnCreate = DataModuleCreate
+  OnDestroy = DataModuleDestroy
+  Height = 450
+  Width = 442
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF16
+    Catalog = ''
+    Properties.Strings = (
+      'controls_cp=CP_UTF16')
+    Connected = True
+    HostName = 'localhost'
+    Port = 3306
+    Database = 'hanifahcollection1'
+    User = 'root'
+    Password = ''
+    Protocol = 'MariaDB-10'
+    LibraryLocation = 'D:\lib\libmariadb.dll'
+    Left = 152
+    Top = 8
+  end
+  object tabelbarang: TZTable
+    Connection = ZConnection1
+    Active = True
+    TableName = 'kelola_barang'
+    Left = 32
+    Top = 80
+  end
+  object tabelbarangmasuk: TZTable
+    Connection = ZConnection1
+    Active = True
+    TableName = 'kelola_barang_masuk'
+    Left = 152
+    Top = 80
+  end
+  object tabelbarangterjual: TZTable
+    Connection = ZConnection1
+    Active = True
+    TableName = 'kelola_barang_terjual'
+    Left = 272
+    Top = 80
+  end
+  object dsbarang: TDataSource
+    DataSet = tabelbarang
+    Left = 32
+    Top = 144
+  end
+  object dsbarangmasuk: TDataSource
+    DataSet = tabelbarangmasuk
+    Left = 144
+    Top = 152
+  end
+  object Dsbarangterjual: TDataSource
+    DataSet = tabelbarangterjual
+    Left = 272
+    Top = 144
+  end
+  object qreportbarang: TZQuery
+    Connection = ZConnection1
+    SQL.Strings = (
+      'select * from kelola_barang')
+    Params = <>
+    Left = 32
+    Top = 320
+  end
+  object dsreporbarang: TDataSource
+    DataSet = qreportbarang
+    Left = 32
+    Top = 376
+  end
+  object qreportbarangmasuk: TZQuery
+    Connection = ZConnection1
+    Active = True
+    SQL.Strings = (
+      'select * from kelola_barang_masuk')
+    Params = <>
+    Left = 144
+    Top = 320
+  end
+  object dsreporbarangmasuk: TDataSource
+    DataSet = qreportbarangmasuk
+    Left = 144
+    Top = 376
+  end
+  object qreporbarangterjual: TZQuery
+    Connection = ZConnection1
+    Active = True
+    SQL.Strings = (
+      'select * from kelola_barang_terjual')
+    Params = <>
+    Left = 280
+    Top = 328
+  end
+  object dsreporbarangterjual: TDataSource
+    DataSet = qreporbarangterjual
+    Left = 280
+    Top = 384
+  end
+  object qtabelbarang: TZQuery
+    Connection = ZConnection1
+    Active = True
+    SQL.Strings = (
+      'select * from kelola_barang')
+    Params = <>
+    Left = 32
+    Top = 216
+  end
+  object qtabelbarangmasuk: TZQuery
+    Connection = ZConnection1
+    Active = True
+    SQL.Strings = (
+      'select* from kelola_barang_masuk')
+    Params = <>
+    Left = 144
+    Top = 216
+  end
+  object qtabelbarangterjual: TZQuery
+    Connection = ZConnection1
+    Active = True
+    SQL.Strings = (
+      'select* from kelola_barang_terjual')
+    Params = <>
+    Left = 256
+    Top = 216
+  end
+  object qlogin: TZQuery
+    Connection = ZConnection1
+    Active = True
+    SQL.Strings = (
+      'select * from kelola_login')
+    Params = <>
+    Left = 368
+    Top = 216
+  end
+  object dslogin: TDataSource
+    DataSet = qlogin
+    Left = 368
+    Top = 144
+  end
+  object tabellogin: TZTable
+    Connection = ZConnection1
+    Active = True
+    TableName = 'kelola_login'
+    Left = 360
+    Top = 80
+  end
+  object ZReadOnlyQuery1: TZReadOnlyQuery
+    Connection = ZConnection1
+    Filtered = True
+    Active = True
+    SQL.Strings = (
+      'SELECT* FROM kelola_login')
+    Params = <>
+    DataSource = dslogin
+    Left = 368
+    Top = 280
+  end
+end

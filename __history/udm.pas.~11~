@@ -1,0 +1,63 @@
+unit udm;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DB, Data.Win.ADODB, ZAbstractConnection,
+  ZConnection, ZAbstractRODataset, ZAbstractDataset, ZAbstractTable, ZDataset;
+
+type
+  Tdm = class(TDataModule)
+    ZConnection1: TZConnection;
+    tabelbarang: TZTable;
+    tabelbarangmasuk: TZTable;
+    tabelbarangterjual: TZTable;
+    dsbarang: TDataSource;
+    dsbarangmasuk: TDataSource;
+    Dsbarangterjual: TDataSource;
+    qreportbarang: TZQuery;
+    dsreporbarang: TDataSource;
+    qreportbarangmasuk: TZQuery;
+    dsreporbarangmasuk: TDataSource;
+    qreporbarangterjual: TZQuery;
+    dsreporbarangterjual: TDataSource;
+    qtabelbarang: TZQuery;
+    qtabelbarangmasuk: TZQuery;
+    qtabelbarangterjual: TZQuery;
+    qakun: TZQuery;
+    dsakun: TDataSource;
+    tabelakun: TZTable;
+    procedure DataModuleCreate(Sender: TObject);
+    procedure DataModuleDestroy(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  dm: Tdm;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+procedure Tdm.DataModuleCreate(Sender: TObject);
+begin
+               tabelbarangmasuk.Active:=true;
+               tabelbarang.Active:=true;
+               tabelbarangterjual.Active:=true;
+               tabelakun.Active:=true;
+end;
+
+procedure Tdm.DataModuleDestroy(Sender: TObject);
+begin
+               tabelbarangmasuk.Active:=false;
+               tabelbarang.Active:=false;
+               tabelbarangterjual.Active:=false;
+               tabelakun.Active:=false;
+end;
+
+end.

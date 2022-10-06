@@ -1,0 +1,199 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'Form1'
+  ClientHeight = 356
+  ClientWidth = 622
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 5
+    Top = 0
+    Width = 609
+    Height = 348
+    Color = clRed
+    ParentBackground = False
+    TabOrder = 0
+    object Panel2: TPanel
+      Left = 32
+      Top = 24
+      Width = 545
+      Height = 297
+      Color = clWhite
+      ParentBackground = False
+      TabOrder = 0
+      object Label3: TLabel
+        Left = 248
+        Top = 278
+        Width = 105
+        Height = 15
+        Caption = 'lupa password'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        ParentFont = False
+        OnClick = Label3Click
+      end
+      object Panel3: TPanel
+        Left = 102
+        Top = 111
+        Width = 353
+        Height = 113
+        Color = clMoneyGreen
+        ParentBackground = False
+        TabOrder = 0
+        object Label1: TLabel
+          Left = 47
+          Top = 16
+          Width = 72
+          Height = 15
+          Caption = 'USERNAME:'
+          Font.Charset = ANSI_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+        end
+        object Label2: TLabel
+          Left = 48
+          Top = 48
+          Width = 69
+          Height = 15
+          Caption = 'PASSWORD'
+          Font.Charset = ANSI_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+        end
+        object Edit1: TEdit
+          Left = 152
+          Top = 16
+          Width = 121
+          Height = 21
+          TabOrder = 0
+          Text = 'Masukkan Username'
+        end
+        object Edit2: TEdit
+          Left = 152
+          Top = 51
+          Width = 121
+          Height = 21
+          PasswordChar = '*'
+          TabOrder = 1
+          OnKeyDown = Edit2KeyDown
+        end
+        object CheckBox1: TCheckBox
+          Left = 118
+          Top = 78
+          Width = 139
+          Height = 17
+          Caption = 'lihat/tutup password'
+          Font.Charset = ANSI_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -13
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 2
+          OnClick = CheckBox1Click
+        end
+      end
+      object Button1: TButton
+        Left = 166
+        Top = 230
+        Width = 113
+        Height = 42
+        Caption = 'MASUK'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ImageIndex = 2
+        Images = Form3.ImageList1
+        ParentFont = False
+        TabOrder = 1
+        OnClick = Button1Click
+      end
+      object Button2: TButton
+        Left = 307
+        Top = 230
+        Width = 116
+        Height = 42
+        Caption = 'BATAL'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ImageIndex = 1
+        Images = Form2.ImageList1
+        ParentFont = False
+        TabOrder = 2
+        OnClick = Button2Click
+      end
+      object Panel4: TPanel
+        Left = 24
+        Top = 0
+        Width = 489
+        Height = 89
+        Color = clSkyBlue
+        ParentBackground = False
+        TabOrder = 3
+        object Label4: TLabel
+          Left = 208
+          Top = 3
+          Width = 96
+          Height = 22
+          Caption = 'APDBMHC'
+          Font.Charset = ANSI_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -19
+          Font.Name = 'Times New Roman'
+          Font.Style = [fsBold, fsItalic]
+          ParentFont = False
+        end
+        object Label5: TLabel
+          Left = 78
+          Top = 31
+          Width = 363
+          Height = 19
+          Caption = 'Aplikasi Pencatatan Data Busana Muslim Hanifah Collection'
+          Font.Charset = ANSI_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentFont = False
+        end
+        object Label6: TLabel
+          Left = 176
+          Top = 56
+          Width = 144
+          Height = 22
+          Caption = 'Berbasis Desktop'
+          Font.Charset = ANSI_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -19
+          Font.Name = 'Times New Roman'
+          Font.Style = [fsBold]
+          ParentFont = False
+        end
+      end
+    end
+  end
+end
